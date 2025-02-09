@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'spotify_cloneV0';
 $user = 'postgres';
-$password = 'Safaa.Yassir10';
+$password = '';
 
 try {
     $pdo = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);
